@@ -1,18 +1,18 @@
 {
-  "name": "42header",
-  "displayName": "42 Header",
-  "description": "42 header for VSCode : www.42.fr",
+  "name": "101header",
+  "displayName": "101 Header",
+  "description": "101 header for VSCode : www.le-101.fr",
   "version": "0.42.7",
-  "publisher": "kube",
+  "publisher": "aviscogl",
   "icon": "42.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/kube/vscode-42header"
   },
   "bugs": {
-    "url": "https://github.com/kube/vscode-42header/issues"
+    "url": "https://github.com/AlexisVisco/vscode-101header/issues"
   },
-  "homepage": "https://github.com/kube/vscode-42header",
+  "homepage": "https://github.com/AlexisVisco/vscode-101header",
   "license": "MIT",
   "engines": {
     "vscode": "^1.6.0"
