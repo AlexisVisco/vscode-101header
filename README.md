@@ -1,30 +1,31 @@
 <img
-  src="https://raw.githubusercontent.com/kube/vscode-42header/master/42.png" 
+  src="https://raw.githubusercontent.com/AlexisVisco/vscode-101header/master/101.png" 
   width=128>
 
-# 42 Header for VSCode
+# 101 Header for VSCode
 
-This extension provides the 42 header integration in VS Code.
+This extension provides the 101 header integration in VS Code.
 
 ```bash
-# **************************************************************************** #
-#                                                                              #
-#                                                         :::      ::::::::    #
-#    vscode-42header                                    :+:      :+:    :+:    #
-#                                                     +:+ +:+         +:+      #
-#    By: kube <hello@kube.io>                       +#+  +:+       +#+         #
-#                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2013/11/18 13:37:42 by kube              #+#    #+#              #
-#    Updated: 2016/09/18 13:11:04 by kube             ###   ########.fr        #
-#                                                                              #
-# **************************************************************************** #
+* ************************************************************************** *
+*                                                          LE - /            *
+*                                                              /             *
+*   get_next_line.c                                  .::    .:/ .      .::   *
+*                                                 +:+:+   +:    +:  +:+:+    *
+*   By: aviscogl <aviscogl@student.le-101.fr>      +:+   +:    +:    +:+     *
+*                                                 #+#   #+    #+    #+#      *
+*   Created: 2017/11/23 10:31:13 by aviscogl     #+#   ##    ##    #+#       *
+*   Updated: 2017/11/23 15:43:25 by aviscogl    ###    #+. /#+    ###.fr     *
+*                                                         /                  *
+*                                                        /                   *
+* ************************************************************************** *
 ```
 
 ## Install
 
 Launch Quick Open with <kbd>⌘</kbd>+<kbd>P</kbd> and enter
 ```
-ext install 42header
+ext install 101header
 ```
 
 ## Usage
@@ -44,15 +45,15 @@ To override these values, specify these properties in *User Settings* :
 
 ```ts
 {
-  "42header.username": string,
-  "42header.email": string
+  "101header.username": string,
+  "101header.email": string
 }
 ```
 
 
 ## Issues
 
-To report a bug or ask for a feature, please open a [Github issue](https://github.com/kube/vscode-42header/issues).
+To report a bug or ask for a feature, please open a [Github issue](https://github.com/AlexisVisco/vscode-101header/issues).
 
 
 ## License

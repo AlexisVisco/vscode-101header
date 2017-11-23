@@ -1,13 +1,4 @@
 
-      /*#######.
-     ########",#:
-   #########',##".
-  ##'##'## .##',##.
-   ## ## ## # ##",#.
-    ## ## ## ## ##'
-     ## ## ## :##
-      ## ## ##*/
-
 import { basename } from 'path'
 import vscode = require('vscode')
 import moment = require('moment')
@@ -26,14 +17,14 @@ import {
  */
 const getCurrentUser = () =>
   vscode.workspace.getConfiguration()
-    .get('42header.username') || process.env['USER'] || 'marvin'
+    .get('101header.username') || process.env['USER'] || 'aviscogl'
 
 /**
  * Return current user mail from config or default value
  */
 const getCurrentUserMail = () =>
   vscode.workspace.getConfiguration()
-    .get('42header.email') || `${getCurrentUser()}@student.42.fr`
+    .get('101header.email') || `${getCurrentUser()}@student.le-101.fr`
 
 /**
  * Update HeaderInfo with last update author and date, and update filename
@@ -123,7 +114,7 @@ const startUpdateOnSaveWatcher = (subscriptions: vscode.Disposable[]) =>
 
 export const activate = (context: vscode.ExtensionContext) => {
   const disposable = vscode.commands
-    .registerTextEditorCommand('42header.insertHeader', insertHeaderHandler)
+    .registerTextEditorCommand('101header.insertHeader', insertHeaderHandler)
 
   context.subscriptions.push(disposable)
   startUpdateOnSaveWatcher(context.subscriptions)
