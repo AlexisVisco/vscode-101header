@@ -59,3 +59,5 @@ To report a bug or ask for a feature, please open a [Github issue](https://githu
 ## License
 
 MIT
+
+**It's a fork from this repo https://github.com/kube/vscode-42header, real author is kube)**
